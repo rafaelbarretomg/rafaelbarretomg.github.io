@@ -165,4 +165,14 @@ a:hover {
         font-size: 12px;
     }
 }
+@media (max-width: 400px){
+    .foto1 {
+     width: 100%;
+    }
+    .list1-1 {
+     font-size:10px;
+    }
+}
+
+
 
