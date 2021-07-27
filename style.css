@@ -105,7 +105,7 @@ ul {
 }
 
 footer {
-    
+    margin: 30px;
 }
 
 footer .see-more {
@@ -113,10 +113,10 @@ footer .see-more {
     justify-content: center;
     background-color: lightgray;
     border: 1px solid black;
-    margin: 30px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px black;
     font-size: 30px;
+    margin-bottom: 30px;
 }
 
 .see-more a {
@@ -128,14 +128,13 @@ footer .see-more {
     justify-content: center;
     background-color: lightgray;
     border: 1px solid black;
-    margin: 15px;
     border-radius: 5px;
     box-shadow: 2px 2px 2px black;
     font-size: 20px;
 }
 
 .made-by a {
-    margin-left: 10px;
+    margin-left: 5px;
     text-decoration: none;
 }
 
