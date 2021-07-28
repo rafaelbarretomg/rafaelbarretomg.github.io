@@ -166,6 +166,10 @@ a:hover {
     }
 }
 @media (max-width: 300px){
+
+    *{
+        margin: 0;
+    }
     .foto1 {
      width: 100%;
     }
