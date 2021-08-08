@@ -1,0 +1,97 @@
+body {
+    margin: 0;
+    background-color: rgb(123, 205, 207);
+}
+#main {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    padding: 20px;
+}
+#title {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+#title h1{
+    font-size: 50px;
+    margin-bottom: 10px;
+}
+
+#title p {
+    margin-bottom: 20px;
+    font-size: 15px;
+}
+#img-div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: white;
+    border: 1px solid rgba(0, 0, 0, 0.397);
+    border-radius: 10px;
+    box-shadow: 1px 1px 1px black;
+    padding: 5px;
+}
+#img-div img {
+    width: 100%;
+    max-width: 500px;
+}
+
+#img-caption {
+    padding-top: 20px;
+    padding-bottom: 10px;
+}
+
+#tribute-info {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    max-width: 1000px;
+    padding: 10px;
+}
+
+#tribute-info ul li {
+    line-height: 30px;
+}
+
+#tribute-link,.link{
+    font-size: 25px;
+}
+
+@media (max-width: 767px) {
+    #main {
+        padding: 10px;
+    }
+    #title h1 {
+        font-size: 30px;
+    }
+    #title p {
+        font-size: 13px;
+    }
+    #img-caption {
+        padding-top: 10px;
+        padding-bottom: 5px;
+    }
+    #tribute-info {
+        padding: 5px;
+    }
+    #tribute-info h2 {
+        font-size: 22px;
+    }
+    #tribute-info h3 {
+        font-size: 17px;
+    }
+    #tribute-info .text {
+        font-size: 13px;
+    }
+    #tribute-info ul li {
+        font-size: 12px;
+        line-height: 20px;
+    }
+    .link, #tribute-link {
+        font-size: 14px;
+        text-align: center;
+        font-weight: 700;
+    }
+}
