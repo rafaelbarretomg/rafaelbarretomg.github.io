@@ -1,0 +1,82 @@
+body {
+    background-color: #03001c;
+    color: white;
+}
+
+.container {
+    display: flex;
+    justify-content: center;
+}
+
+body #title,
+p {
+    text-align: center;
+}
+
+#survey-form {
+    background-color: #28274794;
+    padding: 30px;
+    color: white;
+    width: 800px;
+    font-size: 20px;
+}
+
+#option-name {
+    margin-bottom: 10px;
+}
+
+#name-label,
+#email-label {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 20px;
+}
+
+#name-label div,
+#email-label div {
+    align-self: flex-start;
+}
+
+#name,
+#email,
+#text-area {
+    width: 100%;
+    height: 35px;
+    border-radius: 10px;
+}
+
+
+
+
+button {
+    display: flex;
+    justify-content: center;
+}
+
+
+
+
+.box {
+    width: 600px;
+}
+
+.textareaBox {
+    display: block;
+    padding: 10px;
+}
+
+textarea {
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    border-width: 0;
+}
+
+#submit {
+    display: flex;
+    justify-content: center;
+    padding: 10px;
+    width: 100%;
+    border-radius: 10px;
+}
