@@ -1,9 +1,11 @@
+/* Config Geral */
 * {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
+/* css do NavBar */
 #navbar {
     display: flex;
     justify-content: space-between;
@@ -56,7 +58,7 @@
 }
 
 
-
+/* CSS da Apresentacao */
 .section-dark {
     display: flex;
     flex-direction: column;
@@ -85,7 +87,7 @@
 
 
 
-
+/* CSS dos Projetos. */
 #projects {
     display: flex;
     flex-direction: column;
@@ -147,6 +149,7 @@
 
 
 
+/*CSS dos links de redes socias e formulario de contato. */
 
 #contact h1,
 #contact p {
@@ -253,6 +256,7 @@ textarea {
     border-radius: 10px;
 }
 
+/* Media query */
 @media only screen and (max-width: 500px) {
     #navbar div {
         font-size: 20px;
